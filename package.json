@@ -1,0 +1,21 @@
+{
+  "name": "my_files",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "backbone": "^1.2.3",
+    "express": "^4.13.4",
+    "jquery": "^2.2.0",
+    "multer": "^1.1.0",
+    "requirejs": "^2.1.22",
+    "requirejs-text": "^2.0.12",
+    "underscore": "^1.8.3"
+  }
+}
