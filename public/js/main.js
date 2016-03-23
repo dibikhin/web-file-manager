@@ -12,13 +12,15 @@ require.config({
 		backbone: {
 			deps: [
 				'underscore',
-				'jquery'
+				'jquery',
+                'jquery_form'
 			],
 			exports: 'Backbone'
 		}
 	},
 	paths: {
 		jquery: '../node_modules/jquery/dist/jquery',
+        jquery_form: '../node_modules/jquery-form/jquery.form',
 		underscore: '../node_modules/underscore/underscore',
 		backbone: '../node_modules/backbone/backbone',
 		text: '../node_modules/requirejs-text/text'

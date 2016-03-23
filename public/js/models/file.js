@@ -1,4 +1,3 @@
-/*global define*/
 define([
     'underscore',
     'backbone'
@@ -7,7 +6,8 @@ define([
 
     var File = Backbone.Model.extend({
         defaults: {
-            title: ''
+            title: '',
+            link: ''
             // size: 0
         }
 
